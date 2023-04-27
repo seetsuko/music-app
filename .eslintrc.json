@@ -23,6 +23,13 @@
         "react/jsx-no-useless-fragment": "off",
         "arrow-body-style":"off",
         "react/function-component-definition": "off",
-        "import/prefer-default-export":"off"
+        "import/prefer-default-export":"off",
+
+        "semi": ["error", "always"],
+        "semi-spacing": ["error", {"after": true, "before": false}],
+        "semi-style": ["error", "last"],
+        "no-extra-semi": "error",
+        "no-unexpected-multiline": "error",
+        "no-unreachable": "error"
     }
 }

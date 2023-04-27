@@ -1,13 +1,14 @@
-import { Header } from './page/Header';
-import { Footer } from './page/Footer';
-import { Home } from './page/Home';
+import { Header } from './Header';
+import { Footer } from './Footer';
+
 import './App.css';
+import { Router } from './routes/Router';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Home />
+      <Router />
       <Footer />
     </div>
   );
