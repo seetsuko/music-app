@@ -8,15 +8,15 @@
         "airbnb",
         "prettier"
     ],
+    "plugins": [
+        "react"
+    ],
     "overrides": [
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "plugins": [
-        "react"
-    ],
     "rules": {
         "react/jsx-uses-react": "off",
         "react/react-in-jsx-scope": "off",
@@ -30,6 +30,15 @@
         "semi-style": ["error", "last"],
         "no-extra-semi": "error",
         "no-unexpected-multiline": "error",
-        "no-unreachable": "error"
+        "no-unreachable": "error",
+        "no-plusplus":"off",
+        "no-const-assign":"off",
+        "import/no-extraneous-dependencies":"off",
+        "no-console":"off",
+        "react/jsx-props-no-spreading":"off",
+        "no-unused-vars":"warn",
+        "react/no-array-index-key":"off",
+        "no-new":"off",
+        "prefer-destructuring":"off"
     }
 }

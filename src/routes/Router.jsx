@@ -1,19 +1,18 @@
 import { Route, Routes } from "react-router-dom";
-import { LogIn } from "../account/LogIn";
-import { SignUp } from "../account/SignUp";
-import { User } from "../account/User";
-import { EditUser } from "../account/EditUser";
 import { Home } from "../page/Home";
+import { AlcholList } from "../page/AlcholList";
+import { AddAlchol } from "../page/AddAlchol";
+import { DetailAlchol } from "../page/DetailAlchol";
+
 
 export const  Router = () => {
 
   return(
     <Routes>
-      <Route path="/login" element={<LogIn />} />
-      <Route path="/signup" element={<SignUp />} />
-      <Route path="/user" element={<User />} />
-      <Route path="/edituser" element={<EditUser />} />
-      <Route path="/home" element={<Home />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/alchol-list" element={<AlcholList />} />
+      <Route path="/alchol-add" element={<AddAlchol />} />
+      <Route path="/detail/:id" element={<DetailAlchol />} />
     </Routes>
   );
 };

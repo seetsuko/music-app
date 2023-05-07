@@ -1,0 +1,44 @@
+{
+  "List": [
+    {
+      "id": "aaa",
+      "type": "カクテル",
+      "name": "カシスオレンジ",
+      "alchol": 3.4,
+      "detail": "カシスの豊かな香りとオレンジ果汁のナチュラルな味わいが絶妙にバランスした優しい味わい。",
+      "image": "https://www.asahibeer.co.jp/cocktail/search/image/item/1010400436.jpg"
+    },
+    {
+      "id": "bbb",
+      "type": "その他",
+      "name": "あらごしもも",
+      "alchol": 8,
+      "detail": "日本酒とたっぷりの桃が溶け合った、やさしいリキュール。",
+      "image": "https://www.umenoyado.com/wp-content/uploads/2018/06/bottle_52.jpg"
+    },
+    {
+      "id": "ddd",
+      "type": "ビール",
+      "name": "サッポロ生ビール 黒ラベル",
+      "alchol": 5,
+      "detail": "味のバランスがよく、麦芽の風味もしっかり感じられる。ビールらしいのどごしを楽しめるのが高ポイント。さわやかな口あたりとバランスのとれた味わいのため、日頃あまりビールを飲まない人でもおいしく飲める。",
+      "image": "https://www.sapporobeer.jp/product/items/kurolabel_22_350.png"
+    },
+    {
+      "id": "ccc",
+      "type": "ウイスキー",
+      "name": "響 ジャパニーズハーモニー",
+      "alchol": 43,
+      "detail": "熟成年数にこだわらず、サントリーののウイスキーづくりの歴史のなかで培ってきた多彩な原酒と匠の技でつくりあげられた、こだわりの逸品です。華やかな香りと、奥深くもやわらかな味わいが特長。",
+      "image": "https://www.suntory.co.jp/products/pimg/SHJHA_R1_20190614.jpg"
+    },
+    {
+      "type": "ビール",
+      "name": "osake",
+      "alchol": "1",
+      "detail": "osake",
+      "image": "http://design-ec.com/d/e_others_47/l_e_others_474.png",
+      "id": "vD0gxzw"
+    }
+  ]
+}

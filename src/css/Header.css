@@ -1,0 +1,17 @@
+header{
+  background-color: #922121;
+  color: aliceblue;
+  display: flex;
+}
+.icon{
+  height: 90px;
+  width: 50px;
+}
+.title{
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+h1{
+  color: beige;
+}
