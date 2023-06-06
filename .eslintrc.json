@@ -37,6 +37,8 @@
 					"extensions": [".jsx", ".tsx"]
 				}
 			],
-			"arrow-body-style": "off"
+			"arrow-body-style": "off",
+			"react/function-component-definition":"off",
+			"import/no-extraneous-dependencies":"off"
 		}
 }
