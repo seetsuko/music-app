@@ -39,6 +39,7 @@
         "no-unused-vars":"warn",
         "react/no-array-index-key":"off",
         "no-new":"off",
-        "prefer-destructuring":"off"
+        "prefer-destructuring":"off",
+        "timport/no-unresolved":"off"
     }
 }
